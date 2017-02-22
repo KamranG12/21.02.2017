@@ -1,0 +1,58 @@
+html,
+body {
+    margin: 0px;
+}
+
+.wrapper{
+     width: 1170px;
+    margin: 0 auto;
+}
+
+.row{
+    width: 1170;
+    height: 200;
+    margin-bottom: 20px;
+}
+
+.row div{
+    width: 380px;
+    margin: 5px 4px;
+    position: relative;
+    float: left;
+    border: 1px black solid;
+}
+
+.row div img{
+    width: 380px;
+    height: 150px;
+}
+
+.row .dateTime{
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: blue;
+    overflow: visible;
+    width: 50px;
+    height: 40px;
+}
+
+.row .dateTime span{
+    padding: 8px 8px;
+}
+
+.row div h1{
+    width: 380px;
+    padding: 20px;
+}
+
+.row .socialButtons span{
+     width: 125.3px;
+     padding: 2px 50px;
+     border-left: 1px black solid;
+}
+
+.row .socialButtons{
+    margin-left: -1px;
+    margin-bottom: -2px;
+}
